@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+.text {
+    text-align: center;
+}
+
+.w {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.L {
+    float: left;
+}
+
+.R {
+    float: right;
+}
+
+/* 导航栏 */
+.navigation_bar {
+    height: 61px;
+    background-color: #0e6da9;
+}
+
+.navigation_bar .loge {
+    font-size: 36px;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.navigation_bar div li {
+    margin: 15px 0;
+    padding: 5px 20px;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.changelin {
+    box-sizing: content-box;
+    border: solid 2px #f6f6f6;
+}
+
+.navigation_img {
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/14320845.jpg);
+    background-size: 100% 800px;
+}
+
+.navigation_img>div {
+    width: 698px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.navigation_img h1 {
+    width: 100%;
+    font-size: 90px;
+    color: #fff;
+}
+
+.navigation_img p {
+    width: 100%;
+    font-size: 20px;
+    color: #073a63;
+}
+
+.navigation_img input {
+    width: 100%;
+    height: 62px;
+    font-size: 20px;
+    line-height: 18px;
+    padding-left: 40px;
+    border-radius: 27px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #006bc4;
+}
+
+.navigation_img input::-webkit-input-placeholder {
+    color: #0a6cb9;
+}
+
+.navigation_img li a {
+    font-size: 19px;
+    line-height: 18px;
+    color: #0a6cb9;
+}
+
+.boundary {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/竖线.png);
+    background-size: 20px;
+}
+
+/* 主体内容 */
+.main_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.masthead {
+    margin-top: 80px;
+}
+
+/* 精选行程 */
+
+.masthead h2 {
+    font-size: 32px;
+    color: #252525;
+}
+
+.masthead h1 {
+    font-size: 39px;
+    color: #252525;
+}
+
+.masthead p {
+    font-size: 12px;
+    color: #565454;
+}
+
+.show_details {
+    margin-top: 20px;
+}
+
+.small_navigation li {
+    margin: 15px 0;
+    padding: 5px 20px;
+}
+
+.small_navigation a {
+    font-size: 15px;
+    color: #000;
+}
+
+.changelisn {
+    background-color: #0f6dd6;
+    color: rgb(255, 255, 255);
+}
+
+.show_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show_flex .sfL {
+    position: relative;
+    width: 290px;
+    height: 378px;
+    background-color: #191919;
+    opacity: 0.7;
+    background-image: url(../img/19398795.jpg);
+}
+
+.show_flex .sfL p {
+    font-size: 27px;
+    color: #fff;
+    margin: 130px 0 0 30px;
+}
+
+.show_flex .sfL ol {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+}
+
+.show_flex .sfL ol a {
+    font-size: 10px;
+    color: #fff;
+}
+
+.boundaryw {
+    width: 10px;
+    height: 12px;
+    margin: 5px 5px 0 0;
+    background-image: url(../img/竖线\ \(1\).png);
+    background-size: 20px;
+}
+
+.show_flex .sfR {
+    width: 875px;
+    height: 378px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.show_flex .sfR div {
+    width: 437px;
+    height: 189px;
+}
+
+.show_flex .sfR .sfR_one {
+    display: flex;
+    flex-direction: row;
+}
+
+.show_flex .sfR .sfR_one div {
+    width: 219px;
+    height: 189px;
+    background-size: 219px 189px;
+}
+
+/* 精选游记 */
+.travel_notes {
+    width: 100%;
+    height: 800px;
+    background-color: #f6f6f6;
+}
+
+.travel_notes_show {
+    width: 367px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.travel_notes_show img {
+    width: 367px;
+    height: 189px;
+}
+
+.travel_notes_show span {
+    float: left;
+    display: list-item;
+    width: 29px;
+    height: 28px;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.travel_notes_show .L span {
+    border-radius: 50%;
+    background-image: url(../img/城镇.jpg);
+    background-size: 29px;
+}
+
+.travel_notes_show .R span {
+    background-image: url(../login/信息\ \(1\).png);
+    background-size: 29px;
+    background-repeat: no-repeat;
+}
+
+/* 精选推荐 */
+.travel_recommend_show {
+    margin-top: 20px;
+    width: 585px;
+    height: 153px;
+    background-color: chartreuse;
+}
+
+.trsImg {
+    width: 208px;
+    height: 153px;
+    background-image: url(../img/3.1.jpg);
+    background-size: 208px 153px;
+}
+
+.trsText {
+    width: 377px;
+    height: 153px;
+    background-color: #f6f6f6;
+}
+
+.trsText div {
+    width: 340px;
+    padding: 20px 20px;
+}
+
+.trsText h1 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000000;
+}
+
+.trsText p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #747474;
+    padding-top: 10px;
+}
+
+.trsText p:last-child {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #f30808;
+}
+.tRemMore {
+    width: 179px;
+	height: 42px;
+	background-color: #0f6dd6;
+    margin: 40px auto;
+    font-size: 19px;
+	line-height: 42px;
+	color: #ffffff;
+}
+
+/* 页尾 */
+footer {
+    width: 100%;
+	height: 240px;
+	background-color: #f1f1f1;
+}
+footer div {
+    padding-top: 30px;
+}
+footer li a {
+	font-size: 18px;
+	line-height: 18px;
+	color: #2a2a2a;
+    padding: 0 20px;
+}
+footer div >p {
+	font-size: 14px;
+    line-height: 20px;
+	color: #2a2a2a;
+}
+footer div>span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 14px;
+
+}
